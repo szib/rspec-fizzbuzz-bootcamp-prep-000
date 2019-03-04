@@ -4,9 +4,5 @@ def fizzbuzz(number)
   ret = []
   ret << "Fizz" if number % 3 === 0
   ret << "Buzz" if number % 5 === 0
-  if (ret.length === 0) 
-    return number
-  else
-    return ret.join
-  end
+  ret.length === 0 ? nil : ret join
 end
