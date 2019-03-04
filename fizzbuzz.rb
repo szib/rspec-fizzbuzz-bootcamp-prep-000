@@ -7,6 +7,6 @@ def fizzbuzz(number)
   if (ret.length === 0) 
     return number
   else
-    return ret
+    return ret.join
   end
 end
